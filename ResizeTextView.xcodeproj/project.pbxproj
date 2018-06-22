@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5227DA4120DCC17800E497F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5227DA4020DCC17800E497F2 /* AppDelegate.swift */; };
+		5227DA4320DCC17800E497F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5227DA4220DCC17800E497F2 /* ViewController.swift */; };
+		5227DA4620DCC17800E497F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5227DA4420DCC17800E497F2 /* Main.storyboard */; };
+		5227DA4820DCC17D00E497F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5227DA4720DCC17D00E497F2 /* Assets.xcassets */; };
+		5227DA4B20DCC17D00E497F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5227DA4920DCC17D00E497F2 /* LaunchScreen.storyboard */; };
+		5227DA5620DCC17D00E497F2 /* ResizeTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5227DA5520DCC17D00E497F2 /* ResizeTextViewTests.swift */; };
+		5227DA6120DCC17D00E497F2 /* ResizeTextViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5227DA6020DCC17D00E497F2 /* ResizeTextViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5227DA5220DCC17D00E497F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5227DA3520DCC17800E497F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5227DA3C20DCC17800E497F2;
+			remoteInfo = ResizeTextView;
+		};
+		5227DA5D20DCC17D00E497F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5227DA3520DCC17800E497F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5227DA3C20DCC17800E497F2;
+			remoteInfo = ResizeTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5227DA3D20DCC17800E497F2 /* ResizeTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizeTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5227DA4020DCC17800E497F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5227DA4220DCC17800E497F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5227DA4520DCC17800E497F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5227DA4720DCC17D00E497F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5227DA4A20DCC17D00E497F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5227DA4C20DCC17D00E497F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5227DA5120DCC17D00E497F2 /* ResizeTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizeTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5227DA5520DCC17D00E497F2 /* ResizeTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeTextViewTests.swift; sourceTree = "<group>"; };
+		5227DA5720DCC17D00E497F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5227DA5C20DCC17D00E497F2 /* ResizeTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizeTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5227DA6020DCC17D00E497F2 /* ResizeTextViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeTextViewUITests.swift; sourceTree = "<group>"; };
+		5227DA6220DCC17D00E497F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5227DA3A20DCC17800E497F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5227DA4E20DCC17D00E497F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5227DA5920DCC17D00E497F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5227DA3420DCC17800E497F2 = {
+			isa = PBXGroup;
+			children = (
+				5227DA3F20DCC17800E497F2 /* ResizeTextView */,
+				5227DA5420DCC17D00E497F2 /* ResizeTextViewTests */,
+				5227DA5F20DCC17D00E497F2 /* ResizeTextViewUITests */,
+				5227DA3E20DCC17800E497F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5227DA3E20DCC17800E497F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5227DA3D20DCC17800E497F2 /* ResizeTextView.app */,
+				5227DA5120DCC17D00E497F2 /* ResizeTextViewTests.xctest */,
+				5227DA5C20DCC17D00E497F2 /* ResizeTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5227DA3F20DCC17800E497F2 /* ResizeTextView */ = {
+			isa = PBXGroup;
+			children = (
+				5227DA4020DCC17800E497F2 /* AppDelegate.swift */,
+				5227DA4220DCC17800E497F2 /* ViewController.swift */,
+				5227DA4420DCC17800E497F2 /* Main.storyboard */,
+				5227DA4720DCC17D00E497F2 /* Assets.xcassets */,
+				5227DA4920DCC17D00E497F2 /* LaunchScreen.storyboard */,
+				5227DA4C20DCC17D00E497F2 /* Info.plist */,
+			);
+			path = ResizeTextView;
+			sourceTree = "<group>";
+		};
+		5227DA5420DCC17D00E497F2 /* ResizeTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5227DA5520DCC17D00E497F2 /* ResizeTextViewTests.swift */,
+				5227DA5720DCC17D00E497F2 /* Info.plist */,
+			);
+			path = ResizeTextViewTests;
+			sourceTree = "<group>";
+		};
+		5227DA5F20DCC17D00E497F2 /* ResizeTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5227DA6020DCC17D00E497F2 /* ResizeTextViewUITests.swift */,
+				5227DA6220DCC17D00E497F2 /* Info.plist */,
+			);
+			path = ResizeTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5227DA3C20DCC17800E497F2 /* ResizeTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5227DA6520DCC17D00E497F2 /* Build configuration list for PBXNativeTarget "ResizeTextView" */;
+			buildPhases = (
+				5227DA3920DCC17800E497F2 /* Sources */,
+				5227DA3A20DCC17800E497F2 /* Frameworks */,
+				5227DA3B20DCC17800E497F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResizeTextView;
+			productName = ResizeTextView;
+			productReference = 5227DA3D20DCC17800E497F2 /* ResizeTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5227DA5020DCC17D00E497F2 /* ResizeTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5227DA6820DCC17D00E497F2 /* Build configuration list for PBXNativeTarget "ResizeTextViewTests" */;
+			buildPhases = (
+				5227DA4D20DCC17D00E497F2 /* Sources */,
+				5227DA4E20DCC17D00E497F2 /* Frameworks */,
+				5227DA4F20DCC17D00E497F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5227DA5320DCC17D00E497F2 /* PBXTargetDependency */,
+			);
+			name = ResizeTextViewTests;
+			productName = ResizeTextViewTests;
+			productReference = 5227DA5120DCC17D00E497F2 /* ResizeTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5227DA5B20DCC17D00E497F2 /* ResizeTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5227DA6B20DCC17D00E497F2 /* Build configuration list for PBXNativeTarget "ResizeTextViewUITests" */;
+			buildPhases = (
+				5227DA5820DCC17D00E497F2 /* Sources */,
+				5227DA5920DCC17D00E497F2 /* Frameworks */,
+				5227DA5A20DCC17D00E497F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5227DA5E20DCC17D00E497F2 /* PBXTargetDependency */,
+			);
+			name = ResizeTextViewUITests;
+			productName = ResizeTextViewUITests;
+			productReference = 5227DA5C20DCC17D00E497F2 /* ResizeTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5227DA3520DCC17800E497F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Vedas labs";
+				TargetAttributes = {
+					5227DA3C20DCC17800E497F2 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					5227DA5020DCC17D00E497F2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 5227DA3C20DCC17800E497F2;
+					};
+					5227DA5B20DCC17D00E497F2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 5227DA3C20DCC17800E497F2;
+					};
+				};
+			};
+			buildConfigurationList = 5227DA3820DCC17800E497F2 /* Build configuration list for PBXProject "ResizeTextView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5227DA3420DCC17800E497F2;
+			productRefGroup = 5227DA3E20DCC17800E497F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5227DA3C20DCC17800E497F2 /* ResizeTextView */,
+				5227DA5020DCC17D00E497F2 /* ResizeTextViewTests */,
+				5227DA5B20DCC17D00E497F2 /* ResizeTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5227DA3B20DCC17800E497F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5227DA4B20DCC17D00E497F2 /* LaunchScreen.storyboard in Resources */,
+				5227DA4820DCC17D00E497F2 /* Assets.xcassets in Resources */,
+				5227DA4620DCC17800E497F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5227DA4F20DCC17D00E497F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5227DA5A20DCC17D00E497F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5227DA3920DCC17800E497F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5227DA4320DCC17800E497F2 /* ViewController.swift in Sources */,
+				5227DA4120DCC17800E497F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5227DA4D20DCC17D00E497F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5227DA5620DCC17D00E497F2 /* ResizeTextViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5227DA5820DCC17D00E497F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5227DA6120DCC17D00E497F2 /* ResizeTextViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5227DA5320DCC17D00E497F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5227DA3C20DCC17800E497F2 /* ResizeTextView */;
+			targetProxy = 5227DA5220DCC17D00E497F2 /* PBXContainerItemProxy */;
+		};
+		5227DA5E20DCC17D00E497F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5227DA3C20DCC17800E497F2 /* ResizeTextView */;
+			targetProxy = 5227DA5D20DCC17D00E497F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5227DA4420DCC17800E497F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5227DA4520DCC17800E497F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5227DA4920DCC17D00E497F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5227DA4A20DCC17D00E497F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5227DA6320DCC17D00E497F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5227DA6420DCC17D00E497F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5227DA6620DCC17D00E497F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ETJQSHNP5L;
+				INFOPLIST_FILE = ResizeTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedaslabs.ResizeTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5227DA6720DCC17D00E497F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ETJQSHNP5L;
+				INFOPLIST_FILE = ResizeTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedaslabs.ResizeTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5227DA6920DCC17D00E497F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ETJQSHNP5L;
+				INFOPLIST_FILE = ResizeTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedaslabs.ResizeTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResizeTextView.app/ResizeTextView";
+			};
+			name = Debug;
+		};
+		5227DA6A20DCC17D00E497F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ETJQSHNP5L;
+				INFOPLIST_FILE = ResizeTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedaslabs.ResizeTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResizeTextView.app/ResizeTextView";
+			};
+			name = Release;
+		};
+		5227DA6C20DCC17D00E497F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ETJQSHNP5L;
+				INFOPLIST_FILE = ResizeTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedaslabs.ResizeTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ResizeTextView;
+			};
+			name = Debug;
+		};
+		5227DA6D20DCC17D00E497F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ETJQSHNP5L;
+				INFOPLIST_FILE = ResizeTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedaslabs.ResizeTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ResizeTextView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5227DA3820DCC17800E497F2 /* Build configuration list for PBXProject "ResizeTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5227DA6320DCC17D00E497F2 /* Debug */,
+				5227DA6420DCC17D00E497F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5227DA6520DCC17D00E497F2 /* Build configuration list for PBXNativeTarget "ResizeTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5227DA6620DCC17D00E497F2 /* Debug */,
+				5227DA6720DCC17D00E497F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5227DA6820DCC17D00E497F2 /* Build configuration list for PBXNativeTarget "ResizeTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5227DA6920DCC17D00E497F2 /* Debug */,
+				5227DA6A20DCC17D00E497F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5227DA6B20DCC17D00E497F2 /* Build configuration list for PBXNativeTarget "ResizeTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5227DA6C20DCC17D00E497F2 /* Debug */,
+				5227DA6D20DCC17D00E497F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5227DA3520DCC17800E497F2 /* Project object */;
+}
